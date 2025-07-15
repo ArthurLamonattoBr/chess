@@ -2,43 +2,33 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.svg" />
+		<link rel="icon" href="/chess/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/2.D1pVwIn2.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.fZj1SLao.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CBRbm1yu.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Ke8UanKF.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Bst8NX7R.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.DBo3RRgO.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/NZTpNUN0.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/D-y6tqGj.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.oPH9VvWR.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.no87VCOl.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/B84ke6ih.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/entry/start.Bv71k6-L.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/chunks/D5D51Rq-.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/chunks/Ke8UanKF.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/chunks/Bst8NX7R.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/entry/app.D43VvS5A.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/chunks/NZTpNUN0.js">
+		<link rel="modulepreload" href="/chess/_app/immutable/chunks/D-y6tqGj.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><!----><main class="svelte-12gnbi7"><div class="menu svelte-12gnbi7"><input type="text" value="game123" placeholder="ID da Sala" class="svelte-12gnbi7"/> <button class="svelte-12gnbi7">Entrar/Criar Jogo</button></div> <!--[!--><!--]--> <div class="game-container svelte-12gnbi7"><div class="timers svelte-12gnbi7"><div>Brancas: 10:00</div> <div>Pretas: 10:00</div></div> <div class="status svelte-12gnbi7">Digite um ID de sala para entrar ou criar um jogo.</div> <div class="board svelte-12gnbi7"><!--[--><!--]--></div></div></main><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
+		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_15cbmr8 = {
-						base: new URL(".", location).pathname.slice(0, -1),
+					__sveltekit_243tw6 = {
+						base: "/chess",
 						assets: "/chess"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.fZj1SLao.js"),
-						import("./_app/immutable/entry/app.DBo3RRgO.js")
+						import("/chess/_app/immutable/entry/start.Bv71k6-L.js"),
+						import("/chess/_app/immutable/entry/app.D43VvS5A.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [null,null],
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 				}
 			</script>
